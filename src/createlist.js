@@ -1,3 +1,4 @@
+//function for creating a new list
 function createListItem(task) {
   const completed = 'completed' in task ? task.completed : false;
   const listItem = document.createElement('li');
